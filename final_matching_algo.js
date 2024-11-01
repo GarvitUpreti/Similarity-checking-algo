@@ -214,11 +214,6 @@ class Song {
     }
 }
 
-class Person {
-    constructor(songs) {
-        this.songs = songs;
-    }
-}
 
 // Create sample Song instances for personA
 const songA1 = new Song('c', '2', '10', 0, 0.7, 0.6, -10, 0.04, 0.2, 0.0, 0.5, 120, 0.3, ['pop', 'rock']);
